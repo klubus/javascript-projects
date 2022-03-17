@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(181, 136, 13);
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin: 70px auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(45, 45, 45);
+  margin-bottom: 1rem;
+}
+
+.input {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.25rem;
+  padding: 0.5em 0.5em;
+  background-color: rgb(52, 52, 52);
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(45, 45, 45);
+}

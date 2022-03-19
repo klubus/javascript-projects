@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(193, 190, 190);
+  font-family: system-ui;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 3px;
+  text-align: center;
+  background-color: white;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.progress-bar {
+  background-color: black;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 100%;
+}
+
+.progress-bar-inner {
+  color: white;
+  position: relative;
+  width: 0%;
+  padding: 0px;
+  background-color: yellow;
+}
+
+article {
+  max-width: 800px;
+  color: rgb(66, 63, 63);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+p:last-of-type {
+  margin-bottom: 0px;
+}
